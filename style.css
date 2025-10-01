@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f4f4f9;
+  color: #333;
+}
+h1 {
+  margin: 20px;
+}
+video {
+  border: 2px solid #333;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.controls button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+#startBtn { background-color: #28a745; color: white; }
+#stopBtn { background-color: #dc3545; color: white; }
+#status {
+  margin-top: 15px;
+  font-weight: bold;
+}
