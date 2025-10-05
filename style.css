@@ -1,28 +1,26 @@
 body {
   font-family: Arial, sans-serif;
   text-align: center;
-  background: #f4f4f9;
-  color: #333;
+  padding: 20px;
 }
-h1 {
-  margin: 20px;
-}
+
 video {
   border: 2px solid #333;
-  border-radius: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
-.controls button {
-  margin: 5px;
+
+button {
   padding: 10px 20px;
+  margin: 5px;
   font-size: 16px;
-  border: none;
-  border-radius: 8px;
   cursor: pointer;
 }
-#startBtn { background-color: #28a745; color: white; }
-#stopBtn { background-color: #dc3545; color: white; }
-#status {
-  margin-top: 15px;
-  font-weight: bold;
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.controls {
+  margin: 10px 0;
 }
